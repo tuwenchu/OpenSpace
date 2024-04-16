@@ -14,7 +14,7 @@ const { privateKey, publicKey } = crypto.generateKeyPairSync('rsa', {
 })
 
 // 昵称和要签名的消息
-const nickname = 'tuWenchu' // 替换为你的昵称和消息
+const nickname = 'tuWenchu'
 
 // 使用私钥对消息进行签名
 const sign = crypto.createSign('RSA-SHA256') // 创建签名对象

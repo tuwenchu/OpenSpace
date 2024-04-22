@@ -1,6 +1,7 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
   contract Bank {
+
     address public owner; // 合约所有者的地址
     
     event Deposit (address indexed from , uint256 amount); // 存款函数
